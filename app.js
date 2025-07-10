@@ -1,4 +1,3 @@
-alert('Boas vindas ao jogo do número secreto!');
 let listaDeNumerosSorteados = [];
 let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
@@ -72,10 +71,3 @@ function reiniciarJogo() {
 
 }
 
-
-
-//if (tentativas > 1) {
-    // alert(`Você acertou o número secreto ${numeroSecreto} com ${tentativas} tentativas!`);
-//} else {
-//    alert(`Parabéns, você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa!`);
-//}
